@@ -1,0 +1,23 @@
+export enum SocialMedia {
+  SQUARE = 'Square',
+  INSTAGRAM = 'Instagram',
+  TWITTER = 'Twitter',
+  FACEBOOK = 'Facebook',
+  GOOGLE = 'Google',
+  SKYPE = 'Skype',
+  FLICKR = 'Flickr',
+  SPOTIFY = 'Spotify',
+  REDDIT = 'Reddit',
+  TUMBLR = 'Tumblr',
+  EXPEDIA = 'Expedia',
+  DROPBOX = 'Dropbox',
+  AMAZON = 'Amazon',
+  PINTEREST = 'Pinterest',
+  NETFLIX = 'Netflix',
+  FOURSQUARE = 'Foursquare',
+  BATTLE_NET = 'Battle.net',
+  STEAM = 'Steam',
+  ACADEMIA_EDU = 'Academia.edu',
+  STACK_OVERFLOW = 'Stack Overflow',
+  BLOGGER = 'Blogger'
+}

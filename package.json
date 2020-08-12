@@ -1,0 +1,32 @@
+{
+  "name": "browser-user-data",
+  "version": "1.0.0",
+  "description": "Get all available informations about your application user.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && webpack && rmdir /Q /S dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioRolla/browser-user-data.git"
+  },
+  "keywords": [
+    "browser",
+    "data",
+    "location",
+    "OS",
+    "hardware",
+    "platform"
+  ],
+  "author": "CaioRolla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioRolla/browser-user-data/issues"
+  },
+  "homepage": "https://github.com/CaioRolla/browser-user-data#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
