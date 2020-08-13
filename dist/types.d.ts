@@ -28,26 +28,26 @@ export interface UserLocation {
     longitude: number;
 }
 export interface UserPlatform {
-    name: string;
-    version: string;
-    layout: string;
+    name?: string;
+    version?: string;
+    layout?: string;
     os: {
         architecture?: number;
         family?: string;
         version?: string;
     };
-    description: string;
-    product: string;
-    manufacturer: string;
+    description?: string;
+    product?: string;
+    manufacturer?: string;
 }
 export interface UserHardware {
-    vendor: string;
-    renderer: string;
+    vendor?: string;
+    renderer?: string;
     screenWidth: number;
     screenHeight: number;
-    battery: {
-        level: number;
-        charging: boolean;
+    battery?: {
+        level?: number;
+        charging?: boolean;
     };
 }
 export interface UserData {
