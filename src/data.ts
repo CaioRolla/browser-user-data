@@ -25,10 +25,11 @@ export const networks = [
     url: "https://login.skype.com/login?message=signin_continue&redirect_uri=https%3A%2F%2Fsecure.skype.com%2Ffavicon.ico",
     name: SocialMedia.SKYPE
   },
-  {
-    url: "https://www.flickr.com/signin/yahoo/?redir=https%3A%2F%2Fwww.flickr.com/favicon.ico",
-    name: SocialMedia.FLICKR
-  },
+  // Doens't work anymore
+  // {
+  //   url: "https://www.flickr.com/signin/yahoo/?redir=https%3A%2F%2Fwww.flickr.com/favicon.ico",
+  //   name: SocialMedia.FLICKR
+  // },
   {
     url: "https://www.spotify.com/de/login/?forward_url=https%3A%2F%2Fwww.spotify.com%2Ffavicon.ico",
     name: SocialMedia.SPOTIFY
