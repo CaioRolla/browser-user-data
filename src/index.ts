@@ -96,7 +96,7 @@ const extractHardwareInfo = async (): Promise<Partial<UserHardware>> => {
     };
 
     var dbgRenderInfo = gl.getExtension('WEBGL_debug_renderer_info');
-    if (dbgRenderInfo != null) {
+    if (!!dbgRenderInfo) {
       unMaskedInfo.renderer = gl.getParameter(dbgRenderInfo.UNMASKED_RENDERER_WEBGL);
       unMaskedInfo.vendor = gl.getParameter(dbgRenderInfo.UNMASKED_VENDOR_WEBGL);
       // unMaskedInfo.display = gl.getParameter(dbgRenderInfo.UNMAKES);
