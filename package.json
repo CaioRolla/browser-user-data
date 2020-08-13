@@ -1,6 +1,6 @@
 {
   "name": "browser-user-data",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get all available informations about your application user.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
