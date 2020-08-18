@@ -12,11 +12,11 @@
 
 * [➤ Browser user data](#-browser-user-data)
 * [➤ Available data](#-available-data)
-	* [➤ Installation](#-installation)
-	* [➤ Usage](#-usage)
-	* [➤ Contributors](#-contributors)
-	* [➤ Contributing](#-contributing)
-	* [➤ License](#-license)
+* [➤ Installation](#-installation)
+* [➤ Usage](#-usage)
+* [➤ Contributors](#-contributors)
+* [➤ Contributing](#-contributing)
+* [➤ License](#-license)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#available-data)
