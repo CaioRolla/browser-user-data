@@ -1,27 +1,10 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#browser-user-data)
-
-# ➤ Browser user data
+# Browser user data
 
 **browser-user-data** is a Javascript library that helps you collect common and not-so-common informations about your application user.
 
+{{ template:toc }}
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-## ➤ Table of Contents
-
-* [➤ Browser user data](#-browser-user-data)
-* [➤ Available data](#-available-data)
-	* [➤ Installation](#-installation)
-	* [➤ Usage](#-usage)
-	* [➤ Contributors](#-contributors)
-	* [➤ Contributing](#-contributing)
-	* [➤ License](#-license)
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#available-data)
-
-# ➤ Available data
+# Available data
 
 | Data          | Available           
 | ------------- |:-------------:
@@ -33,10 +16,7 @@
 | Geolocation without permission prompt | :construction:         
 | Automatic geocoding | :construction:          
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
-
-## ➤ Installation
+## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install **browser-user-data**.
 
@@ -47,13 +27,10 @@ npm i browser-user-data --save
 **Alternatively**, you can also import directly into your html.
 
 ```html
-<script src="https://raw.githubusercontent.com/CaioRolla/browser-user-data/master/bundles/browser-user-data-1.0.7.js"></script>
+<script src="https://raw.githubusercontent.com/CaioRolla/browser-user-data/master/bundles/browser-user-data-{{ pkg.version }}.js"></script>
 ```
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#usage)
-
-## ➤ Usage
+## Usage
 
 If you are using **browser-user-data** with Typescript, you can import the package with the import sintax
 
@@ -119,27 +96,10 @@ This is the complete output:
 }
 ```
 
+{{ template:contributors }}
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
-
-## ➤ Contributors
-	
-
-| [<img alt="Caio Rolla" src="https://avatars0.githubusercontent.com/u/25801532?s=460&u=7c8427b4390269cad8de8cb27b872c5098e41ae2&v=4" width="100">](https://twitter.com/caio_rolla) |
-|:--------------------------------------------------:|
-| [Caio Rolla](https://twitter.com/caio_rolla)     |
-| [caio.cesar.rolla@gmail.com](mailto:caio.cesar.rolla@gmail.com) |
-| You don't need state management if you use global variables. :bug: |
-
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributing)
-
-## ➤ Contributing
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
-
-## ➤ License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
