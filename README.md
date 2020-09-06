@@ -44,11 +44,6 @@ Use the package manager [npm](https://www.npmjs.com/) to install **browser-user-
 npm i browser-user-data --save
 ```
 
-**Alternatively**, you can also import directly into your html.
-
-```html
-<script src="https://raw.githubusercontent.com/CaioRolla/browser-user-data/master/bundles/browser-user-data-1.0.7.js"></script>
-```
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#usage)
@@ -58,10 +53,10 @@ npm i browser-user-data --save
 If you are using **browser-user-data** with Typescript, you can import the package with the import sintax
 
 ```typescript
-import { extractData } from 'browser-user-data';
+import * as browserUserData from 'browser-user-data';
 ```
 
-The usage will be the same no matter how you installed the package:
+The usage will be like this:
 
 ```javascript
 browserUserData
