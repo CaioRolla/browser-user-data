@@ -2,7 +2,6 @@
 
 **browser-user-data** is a Javascript library that helps you collect common and not-so-common informations about your application user.
 
-{{ template:toc }}
 
 # Available data
 

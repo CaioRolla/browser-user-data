@@ -6,18 +6,6 @@
 **browser-user-data** is a Javascript library that helps you collect common and not-so-common informations about your application user.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-## ➤ Table of Contents
-
-* [➤ Browser user data](#-browser-user-data)
-* [➤ Available data](#-available-data)
-* [➤ Installation](#-installation)
-* [➤ Usage](#-usage)
-* [➤ Contributors](#-contributors)
-* [➤ Contributing](#-contributing)
-* [➤ License](#-license)
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#available-data)
 
